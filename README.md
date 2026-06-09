@@ -57,6 +57,9 @@ This project is a personal portfolio website that showcases my profile, skills, 
 ### Projects Section
 ![Projects](images/projects.png)
 
+### Contact Section
+![Contact](images/projects.png)
+
 ---
 
 # ▶️ How to Run the Project
