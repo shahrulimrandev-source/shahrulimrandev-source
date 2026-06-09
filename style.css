@@ -1,0 +1,4 @@
+body{font-family:Arial,sans-serif;}
+.hero{padding:120px 20px;background:#f4f4f4;}
+.dark-mode{background:#121212;color:white;}
+.dark-mode .card{background:#222;color:white;}
