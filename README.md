@@ -43,7 +43,6 @@ I enjoy creating responsive websites, developing useful systems, and transformin
 
 ### 🚀 Current Focus
 
-- Building HireQuest
 - Learning React.js
 - Exploring Full Stack Development
 - Power BI Dashboard Development
@@ -62,8 +61,6 @@ I enjoy creating responsive websites, developing useful systems, and transformin
 📊 Data Analyst
 
 🌏 Malaysia
-
-🚀 Founder of HireQuest
 
 🌱 Lifelong Learner
 
@@ -103,31 +100,6 @@ I enjoy creating responsive websites, developing useful systems, and transformin
 
 # 🚀 Featured Projects
 
-<table>
-<tr>
-
-<td width="50%">
-
-## 🚀 [HireQuest](https://github.com/shahrulimrandev-source/HireQuest)
-
-Smart recruitment platform connecting recruiters and job seekers.
-
-### Features
-
-- Candidate Dashboard
-- Recruiter Dashboard
-- Job Matching
-- Responsive Design
-- Modern UI
-
-**Tech Used**
-
-HTML • CSS • JavaScript • Bootstrap
-
-</td>
-
-<td width="50%">
-
 ## 📊 [DataMining](https://github.com/shahrulimrandev-source/DataMining)
 
 Interactive Power BI dashboard for analytics and business intelligence.
@@ -143,13 +115,7 @@ Interactive Power BI dashboard for analytics and business intelligence.
 
 Power BI • Excel • SQL
 
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%">
+---
 
 ## 🌐 Portfolio Website
 
@@ -166,16 +132,6 @@ Responsive portfolio website showcasing projects and skills.
 **Tech Used**
 
 HTML • CSS • JavaScript
-
-</td>
-
-<td width="50%">
-
-</td>
-
-</tr>
-
-</table>
 
 ---
 
@@ -225,7 +181,6 @@ HTML • CSS • JavaScript
 
 # 🎯 Current Goals
 
-- 🚀 Complete HireQuest Platform
 - 💻 Master Full Stack Development
 - 📊 Build More Analytics Projects
 - 🎨 Improve UI/UX Design Skills
