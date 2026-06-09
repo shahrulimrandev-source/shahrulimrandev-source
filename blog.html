@@ -34,6 +34,14 @@ body{
     opacity:.8;
 }
 
+/* SECTION TITLE */
+
+.section-title{
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:40px;
+}
+
 /* PROJECT CARD */
 
 .project-box{
@@ -41,25 +49,13 @@ body{
     backdrop-filter:blur(12px);
     border:1px solid rgba(255,255,255,0.1);
     border-radius:24px;
-    overflow:hidden;
-    margin-bottom:40px;
+    padding:35px;
+    margin-bottom:30px;
     transition:0.3s;
 }
 
 .project-box:hover{
-    transform:translateY(-8px);
-}
-
-.project-image{
-    width:100%;
-    height:350px;
-    object-fit:cover;
-}
-
-/* CONTENT */
-
-.project-content{
-    padding:35px;
+    transform:translateY(-5px);
 }
 
 .project-title{
@@ -73,7 +69,7 @@ body{
     opacity:.9;
 }
 
-/* TECH */
+/* TECH STACK */
 
 .tech-stack{
     margin-top:20px;
@@ -85,7 +81,6 @@ body{
     border-radius:30px;
     margin-right:8px;
     margin-bottom:8px;
-
     background:rgba(13,110,253,.15);
     border:1px solid rgba(13,110,253,.4);
     color:#4ea1ff;
@@ -100,30 +95,6 @@ body{
 .project-buttons .btn{
     margin-right:10px;
     margin-bottom:10px;
-}
-
-/* SECTION TITLE */
-
-.section-title{
-    font-size:2rem;
-    font-weight:700;
-    margin-bottom:40px;
-}
-
-/* PLACEHOLDER */
-
-.placeholder-frame{
-    width:100%;
-    height:350px;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    font-size:1.2rem;
-    font-weight:600;
-
-    border:2px dashed rgba(255,255,255,.2);
 }
 
 </style>
@@ -164,6 +135,10 @@ data-bs-target="#nav">
 </li>
 
 <li class="nav-item">
+<a class="nav-link active" href="projects.html">Projects</a>
+</li>
+
+<li class="nav-item">
 <a class="nav-link" href="contact.html">Contact</a>
 </li>
 
@@ -191,8 +166,8 @@ id="themeBtn">
 <h1>Featured Projects</h1>
 
 <p class="lead mt-3">
-A showcase of my web development,
-software engineering and data analytics projects.
+A showcase of my web development, software engineering,
+and data analytics projects.
 </p>
 
 </div>
@@ -213,41 +188,22 @@ My Work
 
 <div class="project-box">
 
-<div class="row g-0 align-items-center">
-
-<div class="col-lg-5">
-
-<div class="placeholder-frame">
-HireQuest Screenshot Here
-</div>
-
-
-</div>
-
-<div class="col-lg-7">
-
-<div class="project-content">
-
 <h3 class="project-title">
 HireQuest
 </h3>
 
 <p class="project-description">
-
-A recruitment platform developed to connect
-employers with job seekers efficiently.
-
-Features include:
-
-• Job posting management
-
-• Candidate applications
-
-• Modern responsive interface
-
-• User-friendly experience
-
+A recruitment platform developed to connect employers
+with job seekers efficiently through a modern and
+responsive interface.
 </p>
+
+<ul>
+<li>Job posting management</li>
+<li>Candidate application system</li>
+<li>Employer dashboard</li>
+<li>Responsive web design</li>
+</ul>
 
 <div class="tech-stack">
 
@@ -272,43 +228,26 @@ GitHub
 
 </div>
 
-</div>
-
-</div>
-
-</div>
-
-
-<!-- PROJECT 3 -->
+<!-- PROJECT 2 -->
 
 <div class="project-box">
-
-<div class="row g-0 align-items-center">
-
-<div class="col-lg-5">
-
-<div class="placeholder-frame">
-Power BI Dashboard Screenshot
-</div>
-
-</div>
-
-<div class="col-lg-7">
-
-<div class="project-content">
 
 <h3 class="project-title">
 Power BI Dashboard
 </h3>
 
 <p class="project-description">
-
-Interactive dashboard displaying KPIs,
-analytics and business performance metrics.
-
-Created using Power BI, DAX and SQL.
-
+An interactive dashboard designed to visualize
+business performance, employee statistics,
+and KPI metrics using modern data visualization techniques.
 </p>
+
+<ul>
+<li>Interactive reports</li>
+<li>Drill-down analysis</li>
+<li>DAX calculations</li>
+<li>Business KPI monitoring</li>
+</ul>
 
 <div class="tech-stack">
 
@@ -332,7 +271,44 @@ Case Study
 
 </div>
 
+<!-- PROJECT 3 -->
+
+<div class="project-box">
+
+<h3 class="project-title">
+Personal Portfolio Website
+</h3>
+
+<p class="project-description">
+A personal portfolio website created to showcase
+my projects, skills, achievements, and contact information
+in a professional and responsive layout.
+</p>
+
+<ul>
+<li>Modern UI design</li>
+<li>Responsive layout</li>
+<li>Projects showcase</li>
+<li>Contact form integration</li>
+</ul>
+
+<div class="tech-stack">
+
+<span class="tech">HTML</span>
+<span class="tech">CSS</span>
+<span class="tech">Bootstrap</span>
+
 </div>
+
+<div class="project-buttons">
+
+<a href="#" class="btn btn-primary">
+View Website
+</a>
+
+<a href="#" class="btn btn-outline-light">
+GitHub
+</a>
 
 </div>
 
@@ -342,33 +318,21 @@ Case Study
 
 <div class="project-box">
 
-<div class="row g-0 align-items-center">
-
-<div class="col-lg-5">
-
-<div class="placeholder-frame">
-Future Project Screenshot
-</div>
-
-</div>
-
-<div class="col-lg-7">
-
-<div class="project-content">
-
 <h3 class="project-title">
 Future Project
 </h3>
 
 <p class="project-description">
-
-Reserved space for future development
-projects, applications and research work.
-
-Simply duplicate this section whenever
-you complete a new project.
-
+This section is reserved for future projects,
+applications, and development work that will be added
+as I continue learning and building new solutions.
 </p>
+
+<ul>
+<li>Coming Soon</li>
+<li>Future Development</li>
+<li>New Technologies</li>
+</ul>
 
 <div class="tech-stack">
 
@@ -388,18 +352,12 @@ Coming Soon
 
 </div>
 
-</div>
-
-</div>
-
-</div>
-
 </section>
 
 <!-- FOOTER -->
 
 <footer class="text-center p-4">
-© 2026 Shahrul Imran
+© 2026 Shahrul Imran. All Rights Reserved.
 </footer>
 
 <script src="js/script.js"></script>
