@@ -3,17 +3,575 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog</title>
+
+<title>Blog | Shahrul Imran</title>
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+
+<style>
+
+body{
+    font-family:'Inter',sans-serif;
+}
+
+/* Hero */
+
+.blog-hero{
+    padding:100px 0 70px;
+    text-align:center;
+}
+
+.blog-hero h1{
+    font-size:3rem;
+    font-weight:800;
+}
+
+.blog-hero p{
+    max-width:700px;
+    margin:auto;
+    opacity:.8;
+}
+
+/* Glass */
+
+.glass-card{
+    background:rgba(255,255,255,0.06);
+    backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:20px;
+    overflow:hidden;
+}
+
+/* Search */
+
+.search-box{
+    max-width:600px;
+    margin:auto;
+}
+
+/* Categories */
+
+.category-badge{
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:30px;
+    margin:5px;
+    background:rgba(13,110,253,.15);
+    color:#4ea1ff;
+    border:1px solid rgba(13,110,253,.3);
+}
+
+/* Featured */
+
+.featured-img{
+    width:100%;
+    height:100%;
+    min-height:350px;
+    object-fit:cover;
+}
+
+/* Blog Cards */
+
+.blog-card{
+    transition:.3s;
+    height:100%;
+}
+
+.blog-card:hover{
+    transform:translateY(-8px);
+}
+
+.blog-card img{
+    height:220px;
+    object-fit:cover;
+}
+
+.blog-date{
+    font-size:.85rem;
+    opacity:.7;
+}
+
+.read-btn{
+    border-radius:10px;
+}
+
+/* Newsletter */
+
+.newsletter{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.newsletter input{
+    height:55px;
+}
+
+</style>
+
 </head>
+
 <body>
-<div class="container py-5">
-<h1>Blog Posts</h1>
-<div class="card mb-3"><div class="card-body"><h3>My Journey Learning Web Development</h3><p>Learning HTML, CSS and JavaScript.</p></div></div>
-<div class="card mb-3"><div class="card-body"><h3>Building My First Power BI Dashboard</h3><p>Creating dashboards and visualizations.</p></div></div>
-<div class="card mb-3"><div class="card-body"><h3>Tips for Computer Science Students</h3><p>Practice coding and build projects.</p></div></div>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg">
+<div class="container">
+
+<a class="navbar-brand" href="index.html">
+Shahrul Imran
+</a>
+
+<button
+class="navbar-toggler"
+data-bs-toggle="collapse"
+data-bs-target="#nav">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="blog.html">Blog</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+
+</ul>
+
+<button
+class="btn-theme ms-3"
+onclick="toggleDarkMode()"
+id="themeBtn">
+🌙
+</button>
+
 </div>
+</div>
+</nav>
+
+<!-- HERO -->
+
+<section class="blog-hero">
+
+<div class="container">
+
+<h1>My Blog</h1>
+
+<p class="lead mt-3">
+Sharing my journey in web development,
+Power BI analytics, software engineering,
+and lessons learned as a Computer Science student.
+</p>
+
+</div>
+
+</section>
+
+<!-- SEARCH -->
+
+<section class="mb-4">
+
+<div class="container">
+
+<div class="search-box">
+
+<input
+type="text"
+class="form-control form-control-lg"
+placeholder="Search articles...">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CATEGORY -->
+
+<section class="mb-5">
+
+<div class="container text-center">
+
+<span class="category-badge">
+Web Development
+</span>
+
+<span class="category-badge">
+Power BI
+</span>
+
+<span class="category-badge">
+Programming
+</span>
+
+<span class="category-badge">
+Projects
+</span>
+
+<span class="category-badge">
+Student Life
+</span>
+
+</div>
+
+</section>
+
+<!-- FEATURED POST -->
+
+<section class="mb-5">
+
+<div class="container">
+
+<div class="glass-card">
+
+<div class="row g-0">
+
+<div class="col-lg-6">
+
+<!-- Tukar gambar sini -->
+
+<img
+src="images/blog-featured.jpg"
+alt="Featured Post"
+class="featured-img">
+
+</div>
+
+<div class="col-lg-6 d-flex align-items-center">
+
+<div class="p-5">
+
+<span class="badge bg-primary mb-3">
+FEATURED ARTICLE
+</span>
+
+<h2 class="fw-bold">
+Building HireQuest:
+From Idea to Recruitment Platform
+</h2>
+
+<p class="mt-3">
+A complete journey of designing,
+developing and deploying HireQuest —
+a recruitment platform connecting
+employers with talented candidates.
+</p>
+
+<a href="#" class="btn btn-primary mt-2">
+Read Article
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BLOG POSTS -->
+
+<section class="mb-5">
+
+<div class="container">
+
+<h2 class="fw-bold mb-4">
+Latest Articles
+</h2>
+
+<div class="row g-4">
+
+<!-- CARD 1 -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card blog-card shadow">
+
+<!-- GAMBAR -->
+
+<img
+src="images/web-dev.jpg"
+alt="Web Development">
+
+<div class="card-body">
+
+<p class="blog-date">
+May 2026
+</p>
+
+<h5>
+My Journey Learning Web Development
+</h5>
+
+<p>
+How I started learning HTML, CSS,
+Bootstrap and JavaScript from scratch.
+</p>
+
+<a href="#" class="btn btn-outline-primary read-btn">
+Read More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CARD 2 -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card blog-card shadow">
+
+<img
+src="images/powerbi.jpg"
+alt="Power BI">
+
+<div class="card-body">
+
+<p class="blog-date">
+April 2026
+</p>
+
+<h5>
+Building My First Power BI Dashboard
+</h5>
+
+<p>
+Creating interactive reports,
+KPIs and business analytics dashboards.
+</p>
+
+<a href="#" class="btn btn-outline-primary read-btn">
+Read More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CARD 3 -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card blog-card shadow">
+
+<img
+src="images/cs-student.jpg"
+alt="Computer Science">
+
+<div class="card-body">
+
+<p class="blog-date">
+March 2026
+</p>
+
+<h5>
+Tips for Computer Science Students
+</h5>
+
+<p>
+Important habits, tools and projects
+that help students grow faster.
+</p>
+
+<a href="#" class="btn btn-outline-primary read-btn">
+Read More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CARD 4 -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card blog-card shadow">
+
+<img
+src="images/hirequest.jpg"
+alt="HireQuest">
+
+<div class="card-body">
+
+<p class="blog-date">
+February 2026
+</p>
+
+<h5>
+Developing HireQuest
+</h5>
+
+<p>
+Challenges and solutions while
+building a recruitment platform.
+</p>
+
+<a href="#" class="btn btn-outline-primary read-btn">
+Read More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CARD 5 -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card blog-card shadow">
+
+<img
+src="images/python.jpg"
+alt="Python">
+
+<div class="card-body">
+
+<p class="blog-date">
+January 2026
+</p>
+
+<h5>
+Python for Data Analysis
+</h5>
+
+<p>
+Using Python libraries to clean,
+analyze and visualize data.
+</p>
+
+<a href="#" class="btn btn-outline-primary read-btn">
+Read More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CARD 6 -->
+
+<div class="col-md-6 col-lg-4">
+
+<div class="card blog-card shadow">
+
+<img
+src="images/portfolio.jpg"
+alt="Portfolio">
+
+<div class="card-body">
+
+<p class="blog-date">
+December 2025
+</p>
+
+<h5>
+Creating My Portfolio Website
+</h5>
+
+<p>
+How I designed and built my personal
+developer portfolio.
+</p>
+
+<a href="#" class="btn btn-outline-primary read-btn">
+Read More
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- NEWSLETTER -->
+
+<section class="mb-5">
+
+<div class="container">
+
+<div class="glass-card newsletter">
+
+<h2 class="fw-bold">
+Stay Updated
+</h2>
+
+<p>
+Get updates on my latest projects,
+articles and development journey.
+</p>
+
+<div class="row justify-content-center mt-4">
+
+<div class="col-md-6">
+
+<input
+type="email"
+class="form-control"
+placeholder="Enter your email">
+
+</div>
+
+<div class="col-md-2 mt-3 mt-md-0">
+
+<button class="btn btn-primary w-100 h-100">
+Subscribe
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="text-center p-4">
+© 2026 Shahrul Imran | Portfolio Blog
+</footer>
+
 <script src="js/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
