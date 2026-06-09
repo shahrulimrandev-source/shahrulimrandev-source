@@ -49,7 +49,7 @@ This project is a personal portfolio website that showcases my profile, skills, 
 # 📸 Screenshots
 
 ### Home Page
-![Home](<img width="1905" height="853" alt="Screenshot 2026-06-09 201840" src="https://github.com/user-attachments/assets/7824165f-4892-4f67-9e9e-53bd54986e55" />)
+![Home]<img width="1905" height="853" alt="Screenshot 2026-06-09 201840" src="https://github.com/user-attachments/assets/7824165f-4892-4f67-9e9e-53bd54986e55" />
 
 
 ### About Section
