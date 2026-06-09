@@ -129,10 +129,6 @@ Responsive portfolio website showcasing projects and skills.
 - Mobile Friendly
 - Modern Design
 
-**Tech Used**
-
-HTML • CSS • JavaScript
-
 ---
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:0D1117,100:2563EB&text=GITHUB%20STATISTICS&fontColor=ffffff&fontSize=35"/>
@@ -148,18 +144,6 @@ HTML • CSS • JavaScript
 <br><br>
 
 <img src="https://streak-stats.demolab.com?user=shahrulimrandev-source&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:0D1117,100:38BDF8&text=ACTIVITY%20GRAPH&fontColor=ffffff&fontSize=35"/>
-
-# 📈 Contribution Graph
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=shahrulimrandev-source&theme=tokyo-night)](https://github.com/shahrulimrandev-source)
 
 </div>
 
