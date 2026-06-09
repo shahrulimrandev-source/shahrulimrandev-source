@@ -1,23 +1,43 @@
-# Project Title
-Shahrul Imran Portfolio Website
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:0D1117,25:1E293B,50:2563EB,75:0EA5E9,100:38BDF8&text=SHAHRUL%20IMRAN&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer+Science+Student;Frontend+Developer;Power+BI+Analyst)](https://github.com/shahrulimrandev-source)
+
+<br>
+
+![](https://komarev.com/ghpvc/?username=shahrulimrandev-source&color=blue)
+
+</div>
 
 ---
 
-## Description
-This project is a personal portfolio website that showcases my profile, skills, projects, and achievements as a Computer Science student. It is designed to be responsive and user-friendly.
+## 🌐 Navigation
+[👨‍💻 About](#description) • [🚀 Features](#features) • [🛠 Tech Stack](#technologies-used) • [📸 Screenshots](#screenshots) • [▶️ Run](#how-to-run-the-project) • [🌐 Demo](#demo-link)
 
 ---
 
-## Features
-- Responsive design for all devices
+# 📌 Project Title
+**Personal Portfolio Website**
+
+---
+
+# 📖 Description
+This project is a personal portfolio website that showcases my profile, skills, and projects as a Computer Science student. It is designed with a modern, responsive UI and helps display my work in a professional way.
+
+---
+
+# 🚀 Features
+- Responsive design (mobile & desktop)
 - About Me section
 - Project showcase section
 - GitHub statistics display
-- Contact information section
+- Contact section
+- Clean modern UI design
 
 ---
 
-## Technologies Used
+# 🛠 Technologies Used
 - HTML5
 - CSS3
 - JavaScript
@@ -26,10 +46,10 @@ This project is a personal portfolio website that showcases my profile, skills, 
 
 ---
 
-## Screenshots
+# 📸 Screenshots
 
 ### Home Page
-![Home Page](images/home.png)
+![Home](images/home.png)
 
 ### About Section
 ![About](images/about.png)
@@ -39,8 +59,8 @@ This project is a personal portfolio website that showcases my profile, skills, 
 
 ---
 
-## How to Run the Project
+# ▶️ How to Run the Project
 
-### 1. Clone repository
+### Step 1: Clone repository
 ```bash
 git clone https://github.com/username/repo-name.git
