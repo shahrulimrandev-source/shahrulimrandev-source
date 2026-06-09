@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:0D1117,25:1E293B,50:2563EB,75:0EA5E9,100:38BDF8&text=SHAHRUL%20IMRAN&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Web%20Developer%20•%20Data%20Analyst%20•%20Problem%20Solver&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:0D1117,25:1E293B,50:2563EB,75:0EA5E9,100:38BDF8&text=SHAHRUL%20IMRAN&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer+Science+Student;Frontend+Developer;Power+BI+Developer;Building+HireQuest;Always+Learning+New+Technologies)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer+Science+Student;Frontend+Developer;Power+BI+Analyst)](https://github.com/shahrulimrandev-source)
 
 <br>
 
@@ -108,7 +108,7 @@ I enjoy creating responsive websites, developing useful systems, and transformin
 
 <td width="50%">
 
-## 🚀 HireQuest
+## 🚀 [HireQuest](https://github.com/shahrulimrandev-source/HireQuest)
 
 Smart recruitment platform connecting recruiters and job seekers.
 
@@ -125,6 +125,29 @@ Smart recruitment platform connecting recruiters and job seekers.
 HTML • CSS • JavaScript • Bootstrap
 
 </td>
+
+<td width="50%">
+
+## 📊 [DataMining](https://github.com/shahrulimrandev-source/DataMining)
+
+Interactive Power BI dashboard for analytics and business intelligence.
+
+### Features
+
+- KPI Tracking
+- Dynamic Filters
+- Drill Down Analysis
+- Data Visualization
+
+**Tech Used**
+
+Power BI • Excel • SQL
+
+</td>
+
+</tr>
+
+<tr>
 
 <td width="50%">
 
@@ -146,25 +169,13 @@ HTML • CSS • JavaScript
 
 </td>
 
+<td width="50%">
+
+</td>
+
 </tr>
+
 </table>
-
----
-
-# 📊 Power BI Dashboard
-
-Interactive dashboard for analytics and business intelligence.
-
-### Features
-
-- KPI Tracking
-- Dynamic Filters
-- Drill Down Analysis
-- Data Visualization
-
-**Tech Used**
-
-Power BI • Excel • SQL
 
 ---
 
