@@ -64,6 +64,10 @@ This project is a personal portfolio website that showcases my profile, skills, 
 
 # ▶️ How to Run the Project
 
-### Step 1: Clone repository
+### 1: Clone repository
 ```bash
 git clone https://github.com/username/repo-name.git
+
+### 1: link
+```bash
+https://shahrulimrandev-source.github.io/shahrulimrandev-source
