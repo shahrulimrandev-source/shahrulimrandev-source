@@ -138,8 +138,6 @@ Responsive portfolio website showcasing projects and skills.
 <div align="center">
 
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahrulimrandev-source&layout=compact&theme=tokyonight&hide_border=true"/>
-
 <br><br>
 
 <img src="https://streak-stats.demolab.com?user=shahrulimrandev-source&theme=tokyonight&hide_border=true"/>
