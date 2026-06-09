@@ -49,17 +49,19 @@ This project is a personal portfolio website that showcases my profile, skills, 
 # 📸 Screenshots
 
 ### Home Page
-![Home]<img width="1905" height="853" alt="Screenshot 2026-06-09 201840" src="https://github.com/user-attachments/assets/7824165f-4892-4f67-9e9e-53bd54986e55" />
+<img width="1905" height="853" alt="Screenshot 2026-06-09 201840" src="https://github.com/user-attachments/assets/7824165f-4892-4f67-9e9e-53bd54986e55" />
 
 
 ### About Section
-![About](images/about.png)
+<img width="1875" height="888" alt="Screenshot 2026-06-09 201851" src="https://github.com/user-attachments/assets/3de0bdf7-934f-49bb-bd97-3e7b42265283" />
 
 ### Projects Section
-![Projects](images/projects.png)
+<img width="1891" height="927" alt="Screenshot 2026-06-09 203109" src="https://github.com/user-attachments/assets/68c956f0-5558-4fd2-9009-6c1678f6c026" />
+
 
 ### Contact Section
-![Contact](images/projects.png)
+<img width="1891" height="946" alt="Screenshot 2026-06-09 201907" src="https://github.com/user-attachments/assets/b62dd874-41bb-48d7-9d8b-c5fe5bea8ac2" />
+
 
 ---
 
