@@ -2,7 +2,11 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:0D1117,25:1E293B,50:2563EB,75:0EA5E9,100:38BDF8&text=SHAHRUL%20IMRAN&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Web%20Developer%20•%20Data%20Analyst%20•%20Problem%20Solver&descAlignY=58"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer+Science+Student;Frontend+Developer;Power+BI+Dashboard+Developer;Building+HireQuest;Always+Learning+New+Technologies)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Computer+Science+Student;Frontend+Developer;Power+BI+Developer;Building+HireQuest;Always+Learning+New+Technologies)](https://git.io/typing-svg)
+
+<br>
+
+![](https://komarev.com/ghpvc/?username=shahrulimrandev-source&color=blue)
 
 </div>
 
@@ -10,11 +14,11 @@
 
 <div align="center">
 
-### 🌐 Navigation
+## 🌐 Navigation
 
-[👨‍💻 About Me](#-about-me) •
+[👨‍💻 About](#-about-me) •
 [🛠 Tech Stack](#-tech-stack) •
-[🚀 HireQuest](#-hirequest) •
+[🚀 Projects](#-featured-projects) •
 [📊 GitHub Stats](#-github-statistics) •
 [🎯 Goals](#-current-goals) •
 [📫 Contact](#-contact-me)
@@ -27,40 +31,45 @@
 
 # 👨‍💻 About Me
 
-```javascript
-const shahrul = {
-    name: "Shahrul Imran",
-    role: "Web Developer",
-    education: "Bachelor of Computer Science",
-    location: "Malaysia",
+<table>
+<tr>
+<td width="60%">
 
-    interests: [
-        "Web Development",
-        "Data Analytics",
-        "UI/UX Design",
-        "Software Engineering"
-    ],
+### Hi There 👋
 
-    currentProject: "HireQuest",
+I'm **Shahrul Imran**, a Computer Science student passionate about building modern web applications and data-driven solutions.
 
-    learning: [
-        "React",
-        "Node.js",
-        "REST APIs",
-        "Power BI Analytics"
-    ],
+I enjoy creating responsive websites, developing useful systems, and transforming raw data into meaningful insights.
 
-    goal: "Build impactful digital solutions"
-};
-```
+### 🚀 Current Focus
 
-### 🚀 What I Do
+- Building HireQuest
+- Learning React.js
+- Exploring Full Stack Development
+- Power BI Dashboard Development
+- UI/UX Design
 
-- 💻 Build responsive websites
-- 📊 Create Power BI dashboards
-- 🎨 Design modern user interfaces
-- 📈 Analyze and visualize data
-- 🚀 Develop innovative solutions
+</td>
+
+<td width="40%">
+
+### 📌 Quick Info
+
+🎓 Computer Science Student
+
+💻 Web Developer
+
+📊 Data Analyst
+
+🌏 Malaysia
+
+🚀 Founder of HireQuest
+
+🌱 Lifelong Learner
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -68,33 +77,21 @@ const shahrul = {
 
 # 🛠 Tech Stack
 
-### Frontend
-
 <div align="center">
+
+### Frontend
 
 <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react"/>
 
-</div>
-
 ### Backend
-
-<div align="center">
 
 <img src="https://skillicons.dev/icons?i=python,nodejs"/>
 
-</div>
-
 ### Database
-
-<div align="center">
 
 <img src="https://skillicons.dev/icons?i=mysql,firebase"/>
 
-</div>
-
 ### Tools & Platforms
-
-<div align="center">
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,figma"/>
 
@@ -102,45 +99,72 @@ const shahrul = {
 
 ---
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:1E293B,100:38BDF8&text=HIREQUEST&fontColor=ffffff&fontSize=35"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:1E293B,100:38BDF8&text=FEATURED%20PROJECTS&fontColor=ffffff&fontSize=35"/>
 
-# 🚀 HireQuest
+# 🚀 Featured Projects
 
-### Smart Recruitment Platform
+<table>
+<tr>
 
-HireQuest is a platform designed to connect recruiters and job seekers through a modern and efficient hiring process.
+<td width="50%">
+
+## 🚀 HireQuest
+
+Smart recruitment platform connecting recruiters and job seekers.
 
 ### Features
 
-✅ Candidate Dashboard
+- Candidate Dashboard
+- Recruiter Dashboard
+- Job Matching
+- Responsive Design
+- Modern UI
 
-✅ Recruiter Dashboard
+**Tech Used**
 
-✅ Job Matching
+HTML • CSS • JavaScript • Bootstrap
 
-✅ Profile Management
+</td>
 
-✅ Responsive Design
+<td width="50%">
 
-✅ Modern UI/UX
+## 🌐 Portfolio Website
 
-### Technologies
+Responsive portfolio website showcasing projects and skills.
 
-```text
-HTML
-CSS
-JavaScript
-Bootstrap
-Git
-GitHub
-```
+### Features
 
-### Future Improvements
+- Dark Mode
+- Smooth Animation
+- Contact Form
+- Mobile Friendly
+- Modern Design
 
-- AI Candidate Matching
-- Resume Analysis
-- Interview Scheduling
-- Job Recommendation Engine
+**Tech Used**
+
+HTML • CSS • JavaScript
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# 📊 Power BI Dashboard
+
+Interactive dashboard for analytics and business intelligence.
+
+### Features
+
+- KPI Tracking
+- Dynamic Filters
+- Drill Down Analysis
+- Data Visualization
+
+**Tech Used**
+
+Power BI • Excel • SQL
 
 ---
 
@@ -154,11 +178,7 @@ GitHub
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shahrulimrandev-source&layout=compact&theme=tokyonight&hide_border=true"/>
 
-</div>
-
-<br>
-
-<div align="center">
+<br><br>
 
 <img src="https://streak-stats.demolab.com?user=shahrulimrandev-source&theme=tokyonight&hide_border=true"/>
 
@@ -168,7 +188,7 @@ GitHub
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:0D1117,100:38BDF8&text=ACTIVITY%20GRAPH&fontColor=ffffff&fontSize=35"/>
 
-# 📈 Contribution Activity
+# 📈 Contribution Graph
 
 <div align="center">
 
@@ -196,38 +216,13 @@ GitHub
 
 - 🚀 Complete HireQuest Platform
 - 💻 Master Full Stack Development
-- 📊 Create More Analytics Projects
+- 📊 Build More Analytics Projects
 - 🎨 Improve UI/UX Design Skills
 - ☁️ Learn Cloud Technologies
 
 ---
 
-# 📚 Currently Learning
-
-```text
-HTML/CSS        ████████████████████ 100%
-JavaScript      █████████████████░░░ 85%
-Python          ████████████████░░░░ 80%
-Power BI        █████████████████░░░ 85%
-React           ███████████░░░░░░░░░ 55%
-Node.js         █████████░░░░░░░░░░░ 45%
-```
-
----
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:1E293B,100:38BDF8&text=FUN%20FACTS&fontColor=ffffff&fontSize=35"/>
-
-# 🌟 Fun Facts
-
-- 🎓 Computer Science Student
-- 💻 Love Building Web Applications
-- 📊 Passionate About Data Analytics
-- 🚀 Creator of HireQuest
-- 🌱 Lifelong Learner
-
----
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:0F172A,100:38BDF8&text=CONTACT%20ME&fontColor=ffffff&fontSize=35"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:1E293B,100:38BDF8&text=CONTACT%20ME&fontColor=ffffff&fontSize=35"/>
 
 # 📫 Contact Me
 
@@ -251,13 +246,7 @@ Node.js         █████████░░░░░░░░░░░ 45%
 
 <div align="center">
 
-### 👀 Visitor Counter
-
-![](https://komarev.com/ghpvc/?username=shahrulimrandev-source&color=blue)
-
-<br>
-
-### ⭐ Thanks For Visiting My Profile
+## ⭐ Thanks For Visiting My Profile
 
 ### 💡 Code • Learn • Build • Repeat
 
