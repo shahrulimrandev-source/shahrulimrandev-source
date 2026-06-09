@@ -36,19 +36,34 @@ body{
     padding:30px;
 }
 
-/* FORM */
-.form-control{
-    border-radius:12px;
-    padding:14px;
+/* PROFILE */
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #0d6efd;
+    margin-bottom:20px;
 }
 
-textarea{
-    resize:none;
+.profile-name{
+    font-size:1.8rem;
+    font-weight:700;
 }
 
-.btn-send{
-    padding:12px 25px;
-    border-radius:12px;
+.profile-role{
+    opacity:.8;
+}
+
+.profile-bio{
+    margin-top:15px;
+    line-height:1.7;
+    opacity:.85;
+}
+
+.social-buttons .btn{
+    margin-bottom:10px;
+    width:100%;
 }
 
 </style>
@@ -61,9 +76,7 @@ textarea{
 <nav class="navbar navbar-expand-lg">
 <div class="container">
 
-<a class="navbar-brand" href="index.html">
-Shahrul Imran
-</a>
+<a class="navbar-brand" href="index.html">Shahrul Imran</a>
 
 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
 <span class="navbar-toggler-icon"></span>
@@ -93,53 +106,45 @@ Shahrul Imran
 </div>
 </section>
 
-<!-- CONTACT FORM CENTER -->
+<!-- CENTER PROFILE CARD -->
 <section class="pb-5">
 <div class="container">
 
 <div class="row justify-content-center">
 
-<div class="col-lg-7">
+<div class="col-lg-5">
 
-<div class="glass-card">
+<div class="glass-card text-center">
 
-<h2 class="mb-4 text-center">Contact Me</h2>
+<img src="profile.jpg" class="profile-img" alt="Profile">
 
-<p class="mb-4 text-center">
-Feel free to send me a message regarding internships, freelance work, collaborations or any exciting opportunities.
+<h2 class="profile-name">
+SHAHRUL IMRAN HANIF
+</h2>
+
+<p class="profile-role">
+Computer Science Student<br>
+Web Developer<br>
+Power BI Analyst
 </p>
 
-<form>
+<p class="profile-bio">
+Passionate about software development,
+data analytics and building digital solutions
+that solve real-world problems.
+</p>
 
-<div class="row">
-<div class="col-md-6 mb-3">
-<label class="form-label">Full Name</label>
-<input type="text" class="form-control" placeholder="Enter your name">
+<hr>
+
+<div class="contact-info">
+<div class="contact-item">📧 shahrulimrandev@email.com</div>
+<div class="contact-item">📍 Malaysia</div>
 </div>
 
-<div class="col-md-6 mb-3">
-<label class="form-label">Email Address</label>
-<input type="email" class="form-control" placeholder="Enter your email">
+<div class="social-buttons mt-3">
+<a href="https://github.com/shahrulimrandev-source" class="btn btn-outline-primary">GitHub</a>
+<a href="https://www.linkedin.com/in/shahrul-imran-hanif-90a8833a6/" class="btn btn-outline-info">LinkedIn</a>
 </div>
-</div>
-
-<div class="mb-3">
-<label class="form-label">Subject</label>
-<input type="text" class="form-control" placeholder="Subject">
-</div>
-
-<div class="mb-3">
-<label class="form-label">Message</label>
-<textarea rows="7" class="form-control" placeholder="Write your message here..."></textarea>
-</div>
-
-<div class="text-center">
-<button type="submit" class="btn btn-primary btn-send">
-Send Message
-</button>
-</div>
-
-</form>
 
 </div>
 
